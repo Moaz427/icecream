@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Universe</title>
+    <link rel="icon" href="images/freepik__upload__96305.png" type="image/png">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body onload="playSound()">
+    <audio id="flavorSound" src="sounds/youtube-intro-sound-202986.mp3"></audio>
+    <script>
+        function playSound() {
+            document.getElementById('flavorSound').play();
+        }
+    </script>
+    <header>
+        <h1>Welcome to Ice Cream Universe! 🍦</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html/flavors.html">Flavors</a></li>
+                <li><a href="html/404.html">Create Your Flavor</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Explore the world of unique ice cream flavors!</h2>
+            <p>From classic vanilla to wasabi ice cream, there's always something new to try.</p>
+            <img src="images/ice.jpg" alt="A colorful ice cream universe">
+            <br>
+            <a href="html/flavors.html" class="cta-button">Discover Flavors</a>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Ice Cream Universe | <a href="html/404.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>
