@@ -1,1 +1,45 @@
+<!-- File: add-flavor.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Add Flavor - Ice Cream Universe</title>
+  <link rel="stylesheet" href="css/creat.css" />
+</head>
+<body>
+  <header>
+    <h1>Ice Cream Universe</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="flavors.html">Flavors</a></li>
+        <li><a href="add-flavor.html" class="active">Add Flavor</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Add a New Flavor</h2>
+      <form action="#" method="POST" class="flavor-form">
+        <label for="name">Flavor Name:</label>
+        <input type="text" id="name" name="name" placeholder="e.g., Mango Tango" required />
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" placeholder="Describe the flavor..." required></textarea>
+
+        <label for="image">Image URL:</label>
+        <input type="url" id="image" name="image" placeholder="http://example.com/image.jpg" required />
+
+        <button type="submit">Add Flavor</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ice Cream Universe. All rights reserved.</p>
+  </footer>
+</body>
+</html>
 
